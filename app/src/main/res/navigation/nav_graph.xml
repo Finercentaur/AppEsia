@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.appesia.ui.fragments.InicioFragment"
+        android:label="Inicio">
+        <action
+            android:id="@+id/action_inicio_to_menu"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_inicio_to_creditos"
+            app:destination="@id/creditosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.appesia.ui.fragments.MenuFragment"
+        android:label="Menú Principal">
+        <action
+            android:id="@+id/action_menu_to_natural"
+            app:destination="@id/naturalFragment" />
+        <action
+            android:id="@+id/action_menu_to_antropico"
+            app:destination="@id/antropicoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/creditosFragment"
+        android:name="com.example.appesia.ui.fragments.CreditosFragment"
+        android:label="Créditos" />
+
+    <fragment
+        android:id="@+id/naturalFragment"
+        android:name="com.example.appesia.ui.fragments.NaturalFragment"
+        android:label="Fenómenos Naturales">
+        <action
+            android:id="@+id/action_natural_to_geologico"
+            app:destination="@id/geologicoFragment" />
+        <action
+            android:id="@+id/action_natural_to_hidrometeorologico"
+            app:destination="@id/hidrometeorologicoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/antropicoFragment"
+        android:name="com.example.appesia.ui.fragments.AntropicoFragment"
+        android:label="Fenómenos Antrópicos">
+        <action
+            android:id="@+id/action_antropico_to_quimico"
+            app:destination="@id/quimicoFragment" />
+        <action
+            android:id="@+id/action_antropico_to_sanitario"
+            app:destination="@id/sanitarioFragment" />
+        <action
+            android:id="@+id/action_antropico_to_socio"
+            app:destination="@id/socioFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/geologicoFragment"
+        android:name="com.example.appesia.ui.fragments.GeologicoFragment"
+        android:label="Riesgos Geológicos">
+        <action
+            android:id="@+id/action_geologico_to_evaluacion"
+            app:destination="@id/evaluacionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hidrometeorologicoFragment"
+        android:name="com.example.appesia.ui.fragments.HidrometeorologicoFragment"
+        android:label="Riesgos Hidrometeorológicos">
+        <action
+            android:id="@+id/action_hidrometeorologico_to_evaluacion"
+            app:destination="@id/evaluacionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quimicoFragment"
+        android:name="com.example.appesia.ui.fragments.QuimicoFragment"
+        android:label="Riesgos Químicos" />
+
+    <fragment
+        android:id="@+id/sanitarioFragment"
+        android:name="com.example.appesia.ui.fragments.SanitarioFragment"
+        android:label="Riesgos Sanitarios" />
+
+    <fragment
+        android:id="@+id/socioFragment"
+        android:name="com.example.appesia.ui.fragments.SocioFragment"
+        android:label="Riesgos Socio-Organizativos" />
+
+    <fragment
+        android:id="@+id/evaluacionFragment"
+        android:name="com.example.appesia.ui.fragments.EvaluacionFragment"
+        android:label="Evaluación" />
+
+</navigation> 
