@@ -1,3 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AppEsia</string>
+    <string name="instituto_politecnico">Instituto Politécnico Nacional</string>
+    <string name="escuela_superior">Escuela Superior de Ingeniería y Arquitectura Unidad Tecamachalco</string>
+    <string name="seccion_estudios">Sección de Estudios de Posgrado e Investigación</string>
+    <string name="proyecto_sip">Proyecto SIP 20230221</string>
+    <string name="directora_proyecto">Directora de proyecto:</string>
+    <string name="nombre_directora">Bertha Nelly Cabrera Sánchez</string>
+    <string name="participantes">Participantes:</string>
+    <string name="lista_participantes">Elis Antonio Aguilar Rios | BEIFI\nMartin Cruz Muñoz | BEIFI\nErnesto García Mendoza | Servicio Social\nGuillermo Ángeles Herrera | Servicio Social\nKevin Heras Romero | Servicio Social\nJosé Carlos Saldivar Valdez | Servicio Social\nDiana Vázquez López | BEIFI\nRoberto Del Olmo Mendoza | Prácticas Profesionales\nOlvera Cruz Joshua | Servicio Social (UPIICSA)\nVeraza García Victor Joovhan | Servicio Social (UPIICSA)</string>
+    <string name="logo_ipn_desc">Logo del Instituto Politécnico Nacional</string>
+    <string name="logo_esia_desc">Logo de la Escuela Superior de Ingeniería y Arquitectura</string>
 </resources>
